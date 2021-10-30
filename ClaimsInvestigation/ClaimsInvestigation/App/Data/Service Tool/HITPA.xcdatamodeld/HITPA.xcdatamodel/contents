@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14315.18" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AssignedCases" representedClassName="AssignedCases" syncable="YES" codeGenerationType="class">
+        <attribute name="caseAllotmentDate" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="caseID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="investigatorID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="priorityStatus" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tabReferenceNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="CaseDetail" representedClassName="CaseDetail" syncable="YES" codeGenerationType="class">
+        <attribute name="caseID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="caseType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fieldID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fieldName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fieldType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fieldValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="investigationDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="investigationPlace" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="investigatorCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isHeaderShown" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isMandatory" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lastUpdatedBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUpdatedOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mappingLabel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sectionID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="submittedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="surveyID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="tabReferenceNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tATStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="validationMsg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webRefNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FieldDataMaster" representedClassName="FieldDataMaster" syncable="YES" codeGenerationType="class">
+        <attribute name="actiontaken" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fieldata_fieldid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fieldata_optionvalues" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fielddata_codes" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isActive" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="FieldMaster" representedClassName="FieldMaster" syncable="YES" codeGenerationType="class">
+        <attribute name="fldFormID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fldHasRemarks" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fldHint" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fldIsActive" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fldIsDependent" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fldIsMandatory" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fldLabel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fldLastUpdatedBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fldLastUpdatedOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fldType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fldValidationMsg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hasValidation" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isHeader" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isReadOnly" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="mappingLabel" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="master_fldId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="showHeader" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sortOrder" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="FieldSectionMap" representedClassName="FieldSectionMap" syncable="YES" codeGenerationType="class">
+        <attribute name="fieldsec_fieldid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fieldsec_secid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fieldsecsort" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="HeaderFieldSectionMap" representedClassName="HeaderFieldSectionMap" syncable="YES" codeGenerationType="class">
+        <attribute name="header_fieldsec_fieldid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="header_fieldsec_secid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="header_fieldsecsort" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Login" representedClassName="Login" syncable="YES" codeGenerationType="class">
+        <attribute name="authToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="fromTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="investigatorCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="investigatorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="noOfCasesAssignable" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="toTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="turnAroundTime" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MediaInfo" representedClassName="MediaInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="fieldID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lastModifiedDate" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastModifiedTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="mediaName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mediaType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tag" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webRefNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SectionMaster" representedClassName="SectionMaster" syncable="YES" codeGenerationType="class">
+        <attribute name="isHeader" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="secCaseType" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="secdecl" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="secFormid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="sechead" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="secissub" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="secLastUpdatedBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secLastUpdatedOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secsort" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="secType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SubmittedCaseDetails" representedClassName="SubmittedCaseDetails" syncable="YES" codeGenerationType="class">
+        <attribute name="authToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="caseID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="investigationDateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="investigatorID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="placeOfInspection" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="responseDetails" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="tabReferenceNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webRefNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Survey" representedClassName="Survey" syncable="YES" codeGenerationType="class">
+        <attribute name="code" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isDownloaded" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isSelected" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="lastPublishedOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUpdatedBy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUpdatedOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="localVersion" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serviceVersion" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="TableFieldDependency" representedClassName="TableFieldDependency" syncable="YES" codeGenerationType="class">
+        <attribute name="fielddependencydependentfieldid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fielddependencyfieldid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fielddependencyid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="fielddependencyvaluesid" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="UploadQueue" representedClassName="UploadQueue" syncable="YES" codeGenerationType="class">
+        <attribute name="caseId" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="investigatorCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isAutoSync" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="isMediaUploading" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="progressValue" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="uploadLabelValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="webReferenceNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="AssignedCases" positionX="-225" positionY="81" width="128" height="135"/>
+        <element name="CaseDetail" positionX="-216" positionY="198" width="128" height="375"/>
+        <element name="FieldDataMaster" positionX="-36" positionY="81" width="128" height="135"/>
+        <element name="FieldMaster" positionX="-36" positionY="387" width="128" height="315"/>
+        <element name="FieldSectionMap" positionX="-432" positionY="378" width="128" height="105"/>
+        <element name="HeaderFieldSectionMap" positionX="135" positionY="246" width="128" height="105"/>
+        <element name="Login" positionX="133" positionY="66" width="128" height="150"/>
+        <element name="MediaInfo" positionX="-216" positionY="225" width="128" height="195"/>
+        <element name="SectionMaster" positionX="-432" positionY="105" width="128" height="210"/>
+        <element name="SubmittedCaseDetails" positionX="-225" positionY="216" width="128" height="180"/>
+        <element name="Survey" positionX="142" positionY="363" width="128" height="195"/>
+        <element name="TableFieldDependency" positionX="-29" positionY="261" width="128" height="105"/>
+        <element name="UploadQueue" positionX="-225" positionY="216" width="128" height="150"/>
+    </elements>
+</model>

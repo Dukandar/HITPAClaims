@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CameraViewController" customModule="ClaimsInvestigation" customModuleProvider="target">
+            <connections>
+                <outlet property="imgViewCamera" destination="7PG-gb-nSs" id="JLf-A4-hBw"/>
+                <outlet property="saveGesture" destination="BuO-Td-N6n" id="sX1-xL-tKk"/>
+                <outlet property="view" destination="cR8-z2-XBt" id="xZr-iR-HTR"/>
+                <outlet property="viewCamera" destination="wSJ-fh-BRQ" id="NxV-JR-kVP"/>
+                <outlet property="viewCapture" destination="JfX-JW-CZW" id="j3l-2E-bKP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="cR8-z2-XBt">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wSJ-fh-BRQ">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="599"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bu8-E1-rZX">
+                    <rect key="frame" x="0.0" y="599" width="375" height="68"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JfX-JW-CZW">
+                            <rect key="frame" x="146" y="0.0" width="83" height="68"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_camera_white_24dp" translatesAutoresizingMaskIntoConstraints="NO" id="7PG-gb-nSs">
+                                    <rect key="frame" x="17" y="10" width="48" height="48"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="48" id="C9s-Kk-0YQ"/>
+                                        <constraint firstAttribute="width" constant="48" id="GN9-58-fkF"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="83" id="2XL-ah-bLX"/>
+                                <constraint firstItem="7PG-gb-nSs" firstAttribute="centerX" secondItem="JfX-JW-CZW" secondAttribute="centerX" id="3kX-No-hsu"/>
+                                <constraint firstItem="7PG-gb-nSs" firstAttribute="centerY" secondItem="JfX-JW-CZW" secondAttribute="centerY" id="Xh4-E1-N4N"/>
+                                <constraint firstAttribute="height" constant="68" id="tY3-dI-eZo"/>
+                            </constraints>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="53q-3j-MH1" appends="YES" id="Ih7-gx-rqQ"/>
+                            </connections>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0JO-WL-riE">
+                            <rect key="frame" x="63" y="0.0" width="83" height="68"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_save_white" translatesAutoresizingMaskIntoConstraints="NO" id="rPc-8u-iu2">
+                                    <rect key="frame" x="23.5" y="16.5" width="35" height="35"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="35" id="S9T-ZJ-ovd"/>
+                                        <constraint firstAttribute="height" constant="35" id="ukn-hO-vC5"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="83" id="1Vl-D1-IYY"/>
+                                <constraint firstAttribute="height" constant="68" id="CDj-aF-Iwp"/>
+                                <constraint firstItem="rPc-8u-iu2" firstAttribute="centerX" secondItem="0JO-WL-riE" secondAttribute="centerX" id="VpU-gU-OPy"/>
+                                <constraint firstItem="rPc-8u-iu2" firstAttribute="centerY" secondItem="0JO-WL-riE" secondAttribute="centerY" id="ywE-ZV-MGg"/>
+                            </constraints>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="BuO-Td-N6n" appends="YES" id="YCF-ds-yte"/>
+                            </connections>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hqI-GH-Wci">
+                            <rect key="frame" x="229" y="0.0" width="83" height="68"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_refresh_white" translatesAutoresizingMaskIntoConstraints="NO" id="RTD-4I-2Lo">
+                                    <rect key="frame" x="23.5" y="16.5" width="35" height="35"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="35" id="GC9-rL-S44"/>
+                                        <constraint firstAttribute="height" constant="35" id="Xzc-1n-l01"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstItem="RTD-4I-2Lo" firstAttribute="centerY" secondItem="hqI-GH-Wci" secondAttribute="centerY" id="8lj-Ce-5f7"/>
+                                <constraint firstItem="RTD-4I-2Lo" firstAttribute="centerX" secondItem="hqI-GH-Wci" secondAttribute="centerX" id="bj4-e9-Gej"/>
+                                <constraint firstAttribute="width" constant="83" id="evc-zH-rvx"/>
+                                <constraint firstAttribute="height" constant="68" id="mgF-rX-B8y"/>
+                            </constraints>
+                            <connections>
+                                <outletCollection property="gestureRecognizers" destination="35V-87-4B0" appends="YES" id="mX0-6e-HN1"/>
+                            </connections>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="JfX-JW-CZW" firstAttribute="centerX" secondItem="Bu8-E1-rZX" secondAttribute="centerX" id="5JC-YG-QKv"/>
+                        <constraint firstItem="hqI-GH-Wci" firstAttribute="width" secondItem="JfX-JW-CZW" secondAttribute="width" id="9fC-UT-BhP"/>
+                        <constraint firstAttribute="height" constant="68" id="Jo0-JN-vX7"/>
+                        <constraint firstItem="hqI-GH-Wci" firstAttribute="leading" secondItem="JfX-JW-CZW" secondAttribute="trailing" id="WxB-QA-Nkn"/>
+                        <constraint firstItem="hqI-GH-Wci" firstAttribute="height" secondItem="JfX-JW-CZW" secondAttribute="height" id="kFH-Ft-KB2"/>
+                        <constraint firstItem="JfX-JW-CZW" firstAttribute="leading" secondItem="0JO-WL-riE" secondAttribute="trailing" id="kOZ-IW-qan"/>
+                        <constraint firstItem="0JO-WL-riE" firstAttribute="centerY" secondItem="JfX-JW-CZW" secondAttribute="centerY" id="klp-0C-iB1"/>
+                        <constraint firstItem="JfX-JW-CZW" firstAttribute="centerY" secondItem="Bu8-E1-rZX" secondAttribute="centerY" id="yZX-v8-GFr"/>
+                        <constraint firstItem="hqI-GH-Wci" firstAttribute="centerY" secondItem="JfX-JW-CZW" secondAttribute="centerY" id="zrB-g6-mg3"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="wSJ-fh-BRQ" firstAttribute="leading" secondItem="cR8-z2-XBt" secondAttribute="leading" id="AgZ-NW-fWr"/>
+                <constraint firstItem="Bu8-E1-rZX" firstAttribute="top" secondItem="wSJ-fh-BRQ" secondAttribute="bottom" id="EeJ-iX-sjP"/>
+                <constraint firstAttribute="bottom" secondItem="wSJ-fh-BRQ" secondAttribute="bottom" constant="68" id="IWX-hU-ZeO"/>
+                <constraint firstItem="wSJ-fh-BRQ" firstAttribute="trailing" secondItem="cR8-z2-XBt" secondAttribute="trailing" id="b9f-mh-tei"/>
+                <constraint firstItem="wSJ-fh-BRQ" firstAttribute="top" secondItem="cR8-z2-XBt" secondAttribute="top" id="sJk-KO-gvH"/>
+                <constraint firstAttribute="bottom" secondItem="Bu8-E1-rZX" secondAttribute="bottom" id="wIb-1S-OQN"/>
+                <constraint firstItem="Bu8-E1-rZX" firstAttribute="leading" secondItem="cR8-z2-XBt" secondAttribute="leading" id="wUb-iQ-ukA"/>
+                <constraint firstAttribute="trailing" secondItem="Bu8-E1-rZX" secondAttribute="trailing" id="xan-pT-Byh"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="68.5"/>
+        </view>
+        <tapGestureRecognizer id="53q-3j-MH1">
+            <connections>
+                <action selector="captureImageTapped:" destination="-1" id="K7u-um-f09"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="BuO-Td-N6n">
+            <connections>
+                <action selector="saveImageTapped:" destination="-1" id="Uqg-eN-Rhw"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="35V-87-4B0">
+            <connections>
+                <action selector="discardImageTapped:" destination="-1" id="OTM-sU-a4c"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="ic_camera_white_24dp" width="48" height="48"/>
+        <image name="ic_refresh_white" width="24" height="24"/>
+        <image name="ic_save_white" width="24" height="24"/>
+    </resources>
+</document>

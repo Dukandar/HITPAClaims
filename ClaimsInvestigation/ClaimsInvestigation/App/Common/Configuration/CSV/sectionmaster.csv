@@ -1,0 +1,34 @@
+secId,secFormid,secType,secCaseType,sechead,secissub,secdecl,secsort,secLastUpdatedBy,secLastUpdatedOn,isHeader
+110629,40219,Simple,1,Cashless Investigation,0,,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:47:38 AM,false
+110596,40219,Simple,1,Case Summary,1, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:47:38 AM,true
+110599,40219,Simple,1,Cashless Information,2, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:18:01 AM,false
+110600,40219,Simple,1,Patient Verification,3, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:33:19 AM,false
+110601,40219,Simple,1,Verification Checklist,4, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:44:39 AM,false
+110602,40219,Simple,1,Document need to be collected from Hospital/ Member during Verification,5, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:40:47 AM,false
+110630,40219,Cashless greater,2,Cashless Investigation,1,,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:06:25 AM,false
+110603,40219,Cashless greater,2,Cashless Information,2, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:06:25 AM,false
+110604,40219,Cashless greater,2,Brief of the case,3, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:20:11 AM,false
+110605,40219,Cashless greater,2,Claim Detail,4, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:35:56 AM,false
+110606,40219,Cashless greater,2,Ailment details,5, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:40:51 AM,false
+110607,40219,Cashless greater,2,Hospital Verification,6, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:52:10 AM,false
+110608,40219,Cashless greater,2,Member Verification,7, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:57:32 AM,false
+110609,40219,Cashless greater,2,Checklist for Investigation,8, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:24:53 AM,false
+110612,40219,Cashless greater,2,List of Collected Documents,9, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:20:57 PM,false
+110631,40219,Reimbursement less than one lac,3,Reimbursement Investigation,1,,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:24:16 PM,false
+110613,40219,Reimbursement less than one lac,3,Reimbursement Information,2, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:24:16 PM,false
+110614,40219,Reimbursement less than one lac,3,Patient Verification,3, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:46:39 PM,false
+110615,40219,Reimbursement less than one lac,3,Hospital Verification,4, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:52:55 PM,false
+110616,40219,Reimbursement less than one lac,3,Neighbours Verification,5, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:03:26 PM,false
+110617,40219,Reimbursement less than one lac,3,Checklist for Investigation,6, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:05:26 PM,false
+110618,40219,Reimbursement less than one lac,3,List of Collected Documents,7, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:29:54 AM,false
+110632,40219,Reimbursement less than one lac,4,Reimbursement Investigation,1,,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:39:23 AM,false
+110619,40219,Reimbursement greater than one lac,4,Reimbursement Information,2, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:39:23 AM,false
+110620,40219,Reimbursement greater than one lac,4,Brief of the case,3, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:48:44 AM,false
+110621,40219,Reimbursement greater than one lac,4,Claim Detail,4, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:00:29 AM,false
+110622,40219,Reimbursement greater than one lac,4,Ailment details,5, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:05:06 AM,false
+110623,40219,Reimbursement greater than one lac,4,Hospital Verification,6, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:14:06 AM,false
+110624,40219,Reimbursement greater than one lac,4,Lab Verification,7, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:42:35 AM,false
+110625,40219,Reimbursement greater than one lac,4,Member Verification,8, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:51:09 AM,false
+110626,40219,Reimbursement greater than one lac,4,Neighbour’s Verification,9, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:11:28 AM,false
+110627,40219,Reimbursement greater than one lac,4,Checklist for Investigation,10, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:14:38 AM,false
+110628,40219,Reimbursement greater than one lac,4,List of Collected Documents,11, ,1,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:09:02 AM,false

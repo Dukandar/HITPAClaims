@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppName</key>
+	<string>HITPAINV</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>HITPAINV</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FTPDirPath</key>
+	<string>/Evidens/</string>
+	<key>FTPPword</key>
+	<string>wipro@123</string>
+	<key>FTPUname</key>
+	<string>hitpa\inubedev</string>
+	<key>FTPUrlString</key>
+	<string>ftp://223.30.163.105/Evidens/</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>60b2be29938e3caa3475c79c92eb6abf89f72f7d</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>HITPAServiceURL</key>
+	<string>http://223.30.163.105:91/api/Evidens/</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>HITPA will access camera to capture documents.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>HITPA will access location to save photo capture location.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>HITPA will access location to save photo capture location.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>HITPA will access microphone to record case related video.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>HITPA will access Library to record case related video.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>HITPA will access photos to upload case related screenshots.</string>
+	<key>SurveyID</key>
+	<string>40219</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>

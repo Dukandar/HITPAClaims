@@ -1,0 +1,535 @@
+master_fldId,fldLabel,mappingLabel,fldType,fldIsMandatory,fldValidationMsg,fldIsActive,fldFormID,fldHint,fldIsDependent,fldHasRemarks,hasValidation,fldLastUpdatedBy,fldLastUpdatedOn,isHeader,sortOrder,showHeader,isReadOnly
+175206,Name of patient,PatientNameHeader,Name,false,Please enter the Name of Patient,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:48:11 AM,true,1,true,true
+175207,Policy Number,PolicynoHeader,Name,true,Please enter the Policy Number,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:51:30 AM,true,2,true,false
+175208,UHID,UHIDHeader,Name,true,Please enter the UHID,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:52:43 AM,true,3,true,false
+175209,Type of claim,ClaimTypeHeader,Name,true,Please enter the type of claim,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:54:39 AM,true,4,true,false
+175210,Hospital name,ProviderNameHeader,Name,true,Please enter the Hospital name,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:55:20 AM,true,5,true,false
+175211,Type of verification,InvestigatorTypeHeader,Name,true,Please enter the type of verification ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:55:53 AM,true,6,true,false
+175212,Treating Doctor Name,TreatingDoctorHeader,Name,true,Please enter the type of verification ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:55:53 AM,true,7,true,false
+175213,Date of admission,DOAHeader,Name,true,Please enter the type of verification ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:55:53 AM,true,8,true,false
+175214,Date of discharge,DODHeader,Name,true,Please enter the type of verification ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:55:53 AM,true,9,true,false
+175215,Claim type,ClaimType,Spinner,true,Please Select the claim type,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:17:03 AM,true,7,false,false
+175216,Date & Time of Visit,InvestigationDateTime,DatePicker,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:19:17 AM,false,1,false,false
+175218,Name of TPA,NameofTPA,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:20:20 AM,false,3,false,true
+175219,Name & Address of Hospital,ProviderAddress,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:20:40 AM,false,4,false,true
+175220,Name of the Attending Doctor,TreatingDoctor,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:20:54 AM,false,5,false,true
+175221,Name and Address of Patient,InsuredAddress,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:21:14 AM,false,6,false,true
+175222,Age,Age,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:21:47 AM,false,7,false,true
+175223,Sex,Gender,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:22:04 AM,false,8,false,true
+175224,Relation with Insured,Relationship,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:22:18 AM,false,9,false,true
+175225,SI,SumInsured,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:22:31 AM,false,10,false,true
+175226,Policy Number,Policyno,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:22:48 AM,false,11,false,true
+175227,Cashless ID,ClaimNo,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:23:05 AM,false,12,false,true
+175228,UHID,UHID,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:23:18 AM,false,13,false,true
+175229,First year Policy,IsFirstPolicyYear,Spinner,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:24:34 AM,false,14,false,true
+175230,Date of Admission,DOA,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:24:59 AM,false,15,false,true
+175231,Expected Date Of Discharge,DOD,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:25:29 AM,false,16,false,true
+175232,Nature of Ailment,Diagnosis,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:25:45 AM,false,17,false,true
+175233,Procedure Done,TreatmentType,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:26:37 AM,false,18,false,true
+175234,Room Type & Room Rent,RoomTypeAndRent,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:26:57 AM,false,19,false,true
+175235,Pre Auth requested Amount,RequestedAmount,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:30:08 AM,false,20,false,true
+175236,Amount Authorized by HITPA,ApprovedAmount,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:30:36 AM,false,21,false,true
+175237,Type of investigation,InvestigatorType,Spinner,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:31:39 AM,false,22,false,true
+175238,Name of Investigation Agency,InvestigationAgency,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:31:55 AM,false,23,false,true
+175239,Name of Investigator,InvestigatorName,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:32:10 AM,false,24,false,true
+175240,Date of Case Assignment,DateOfAssignment,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:32:26 AM,false,25,false,true
+175241,Date of Report Submission,Dateof ReportSubmission,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:32:43 AM,false,26,false,true
+175242,Occupation,OccupationId,Spinner,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:35:27 AM,false,2,false,false
+175243,Mode of Transportation,ModeOfTrans,Spinner,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:36:14 AM,false,3,false,false
+175244,Pre –Hospitalization detail if any,PreHospDetail,TextArea,true,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:36:32 AM,false,4,false,false
+175245,Any Pre-existing ailment,PreExistingAilment,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:36:50 AM,false,5,false,false
+175246,Any Non-disclosure,NonDisclosure,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:37:04 AM,false,6,false,false
+175247,Whether member is satisfied with our claim processing/TAT / Any area of improvement,MemberSatisfied,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:37:27 AM,false,7,false,false
+175248,Is hospital cooperating/ is service satisfactory/ Any area of Improvement,AreaOfImprovement,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:37:43 AM,false,8,false,false
+175249,Hospital Verification (Please collect Photocopy),,Label,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:38:21 AM,false,9,false,false
+175250,ID card/Any Other  Photo ID proof present,IsIDCardAvaialble,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:38:54 AM,false,10,false,false
+175251,Capture ID proof,PhotoIDMediaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:40:11 AM,false,11,false,false
+175252,Pre Authorization Request Form,IsPreAuthReqForm,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:40:39 AM,false,12,false,false
+175254,Capture Media,PreAuthorizationMediaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:41:44 AM,false,14,false,false
+175255,Indoor case Paper,IsIndoorCase,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:42:12 AM,false,15,false,false
+175256,Capture Media,IndoorCaseMediaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:42:58 AM,false,16,false,false
+175257,Any document suggesting Ailment PED/ Non-disclosure in Nature,IsNonDiscDoc,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:43:19 AM,false,17,false,false
+175258,Capture Media,AilmentorNonDisMediaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:43:53 AM,false,18,false,false
+175259,Is Hospital Registered,IsHospReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:45:44 AM,false,1,false,false
+175260,No of Beds,NumberOfBeds,TextBox,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:46:33 AM,false,2,false,false
+175261,Is the Hospital of Suspicious Back ground,IsSuspicious,Spinner,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:48:06 AM,false,3,false,false
+175262,Capture Media,HospitalRegMediaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:49:26 AM,false,4,false,false
+175263,Patient was present on Bed,IsPatientPresent,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:50:31 AM,false,5,false,false
+175264,Reason,AbsenceReason,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:53:01 AM,false,6,false,false
+175265,Date of discharge,DischargeDate,DatePicker,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:55:07 AM,false,7,false,false
+175266,Time of discharge,DischargeDate,TimePicker,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 5:59:11 AM,false,8,false,false
+175267,Patient’s Photo ID Matched with Him/ Her,IsPhotoIdMatch,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:00:05 AM,false,9,false,false
+175269,Capture Media,PatientPhotoIDMatchedMediaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:01:37 AM,false,11,false,false
+175270,Reason,PhotoMismatchReason,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:02:10 AM,false,12,false,false
+175271,Patient Was Able to Provide Address Detail,IsAddressProvided,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:03:32 AM,false,13,false,false
+175272,Capture Media,PatientAddressDetailMediaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:04:19 AM,false,14,false,false
+175273,Reason,NoAddressReason,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:04:51 AM,false,15,false,false
+175274,Patient’s Age Matched With ID Card,IsAgeMatch,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:05:57 AM,false,16,false,false
+175275,Capture Media,PatientAgeMatchedIDCardMediaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:06:43 AM,false,17,false,false
+175276,Reason,AgeMismatchReason,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:07:27 AM,false,18,false,false
+175277,Patient’s Signature Matched With Pre-Authorization Form,IsSigMatch,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:08:53 AM,false,19,false,false
+175278,Capture Media,PatientSignatureMatchedMediaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:27:18 AM,false,20,false,false
+175279,Reason,SigMismatchReason,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:28:16 AM,false,21,false,false
+175280,Duration Of Present Illness(As Stated by Patient),DurationOfIllness,Media Control,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:29:11 AM,false,22,false,false
+175281,Patient Appeared To be Discomfort,IsDiscomfort,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:30:05 AM,false,23,false,false
+175282,Capture Media,PatientDiscomfortMediaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:30:40 AM,false,24,false,false
+175283,Patient Case Records were Shown,IsCaseRecordShown,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:32:52 AM,false,25,false,false
+175284,Capture Media,PatientCaseRecordsMediaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:35:15 AM,false,26,false,false
+175285,Nurse Was able to Describe Patient symptoms,IsNurseAware,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:35:47 AM,false,27,false,false
+175286,Capture Media,NurseDescribePatientSymptomsMediaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:36:23 AM,false,28,false,false
+175287,Patient Was able To Describe Symptoms,IsPatientAware,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:36:41 AM,false,29,false,false
+175288,Capture Media,PatientDescribeSymptomsMdiaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:37:35 AM,false,30,false,false
+175289,Patient Relative Were Present in the Room,IsRelativePresent,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:37:56 AM,false,31,false,false
+175290,Capture Media,PatientRelativePresentMediaCLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:38:41 AM,false,32,false,false
+175291,No of Visit Made by Treating Doctor,NoOfVisitTreatingDr,Media Control,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:39:12 AM,false,33,false,false
+175292,Any Other Remarks,Remarks,Media Control,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:39:32 AM,false,34,false,false
+175293,Any other Media,AnyOtherMediaCLOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:39:59 AM,false,35,false,false
+175294,Photograph copy of pan card and voter ID of claimant/ Address proof,PhotoOfClaimantCLOL,Media Control,false,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:57:33 AM,false,1,false,true
+175295,Copy of Indoor case papers/investigation reports/consultation papers,CopyOfIInvPapersCLOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:58:00 AM,false,2,false,true
+175296,Member/ Hospital Authority Statement if any,HospAuthStatementCLOL,Media Control,false,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:58:41 AM,false,3,false,true
+175297,Investigator Findings/Observation,InvRemarks,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 6:59:20 AM,false,4,false,false
+175298,Date & Time of Visit,DateOfVisitCLOL,DatePicker,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:07:50 AM,false,1,false,false
+175299,Name of Patient,PatientName,TextBox,false,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:09:10 AM,false,5,false,true
+175300,Policy No,Policyno,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:09:10 AM,false,2,false,true
+175301,Policy Holder Name & Relation,PolicyHolderName,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:09:40 AM,false,3,false,true
+175303,Policy Type,PolicyType,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:12:47 AM,false,4,false,true
+175304,Age,Age,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:13:41 AM,false,7,false,true
+175305,Gender,Gender,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:13:58 AM,false,8,false,true
+175306,Is there any past history of ailment,IsAnyAilmentHistory,Spinner,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:14:31 AM,false,9,false,true
+175307,UHID,UHID,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:14:49 AM,false,10,false,true
+175308,Hospital Name,ProviderName,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:15:07 AM,false,11,false,true
+175309,Hospital IPD No,IPDNumber,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:15:25 AM,false,12,false,true
+175310,Provisional Diagnosis,Diagnosis,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:15:54 AM,false,13,false,true
+175311,Claimed Amount,RequestedAmount,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:16:17 AM,false,14,false,true
+175313,Type of investigation,InvestigatorType,Spinner,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:17:24 AM,false,16,false,true
+175314,Name of Investigation Agency,InvestigationAgency,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:17:42 AM,false,17,false,true
+175315,Name of Investigator,InvestigatorName,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:17:57 AM,false,18,false,true
+175316,Date of Case Assignment,DateOfAssignment,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:18:13 AM,false,19,false,true
+175317,Date of Report Submission,DateOfReportSubmission,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:19:14 AM,false,20,false,true
+175318,Name of the Insured Patient,,Label,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:20:30 AM,false,1,false,false
+175319,As per Insurer,PatientNameAsPerInsurer,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:20:53 AM,false,2,false,true
+175320,As Per hospital records,PatientNameAsPerHospRecords,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:21:20 AM,false,3,false,false
+175321,As per investigation,PatientNameAsPerInvestigation,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:21:39 AM,false,4,false,false
+175322,Verified or not,PatientNameAsPerVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:22:20 AM,false,5,false,false
+175323,Capture media,PatientNameVerifiedMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:22:52 AM,false,6,false,false
+175324,Remarks,NameComments,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:23:20 AM,false,7,false,false
+175326,Date of Birth/Age,,Label,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:24:24 AM,false,9,false,false
+175327,As per Insurer,DOBAsPerInsurer,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:24:43 AM,false,10,false,true
+175328,As Per hospital records,DOBPerHospRecords,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:25:08 AM,false,11,false,false
+175329,As per investigation,DOBAsPerInvestigation,DatePicker,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:25:31 AM,false,12,false,false
+175330,Verified or not,IsDOBVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:25:49 AM,false,13,false,false
+175331,Capture Media,PatientDOBVerifiedMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:26:51 AM,false,14,false,false
+175332,Remarks if not Verified,DOBComments,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:28:10 AM,false,15,false,false
+175333,Age Proof,,Label,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:29:08 AM,false,16,false,false
+175334,As Per Insurer,AgeProofAsPerInsurer,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:29:34 AM,false,17,false,true
+175335,As Per hospital records,AgeProofAsPerHospRecords,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:29:48 AM,false,18,false,false
+175336,As per investigation,AgeProofAsPerInvestigation,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:30:09 AM,false,19,false,false
+175338,Age Proof verified or not,IsAgeProofVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:31:13 AM,false,21,false,false
+175339,Capture Media,PatientAgeVerifiedMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:31:44 AM,false,22,false,false
+175340,Remarks if not verified,AgeProofComments,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:32:24 AM,false,23,false,false
+175341,Occupation,,Label,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:32:42 AM,false,24,false,false
+175342,As per Insurer,OccupationAsPerInsurer,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:33:02 AM,false,25,false,true
+175343,As Per hospital records,OccupationAsPerHospRecords,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:33:16 AM,false,26,false,false
+175344,As per investigation,OccupationAsPerInvestigation,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:33:49 AM,false,27,false,false
+175345,Occupation verified or not,IsOccupationVerfied,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:34:14 AM,false,28,false,false
+175346,Capture Media,PatientOccVerifiedMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:34:43 AM,false,29,false,false
+175347,Remarks if not verified,OccupationComments,TextBox,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:35:20 AM,false,30,false,false
+175348,DOA & Time of Admission,DOA,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:36:28 AM,false,1,false,true
+175350,DOD & Time of Discharge,DOD,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:37:07 AM,false,3,false,true
+175352,ICU Admission details,ICUDetail,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:37:50 AM,false,5,false,true
+175353,Pre-Auth Details (Amt Authorized Estimate Medical history etc.),PreAuthHistory,TextArea,false,,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:38:20 AM,false,6,false,true
+175354,Diagnosis,DiagnosisCD,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:38:39 AM,false,7,false,true
+175355,Treatment,TreatmentTypeCD,TextArea,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:38:52 AM,false,8,false,true
+175356,Hospital Name and Address,ProviderAddress,TextArea,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:39:18 AM,false,9,false,true
+175357,Registration and other details,RegistrationNo,TextArea,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:39:44 AM,false,10,false,true
+175358,Onset of symptoms,OnsetOfSymptoms,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:41:07 AM,false,1,false,false
+175359,1st consultation,FirstConsultation,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:42:14 AM,false,2,false,false
+175360,Referral doctor details,TreatingDoctorWriteMode,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:42:36 AM,false,3,false,false
+175361,Initial treatment details,TreatmentDetails,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:42:58 AM,false,5,false,false
+175362,Capture Media,ReferralDoctorMediaCLGL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:43:53 AM,false,4,false,false
+175363,Capture Media,InitialTreatmentMediaCLGL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:44:08 AM,false,6,false,false
+175364,Pre-Hospitalization investigation and Treatment details,PreHospDetail,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:44:33 AM,false,7,false,false
+175365,Capture Media,Pre-HospInvDetailMediaCLGL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:44:49 AM,false,8,false,false
+175366,Post-Hospitalization investigation  and treatment details,PostHospDetail,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:46:37 AM,false,9,false,false
+175367,Capture Media,Post-HospInvDetailMediaCLGL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:47:22 AM,false,10,false,false
+175368,Investigations suggesting Diagnosis,InvSuggestingDiagnosis,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:48:03 AM,false,11,false,false
+175369,Capture Media,InvSuggestingDiagnosisMediaCLGL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:48:57 AM,false,12,false,false
+175370,Outcome,Outcome,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:49:20 AM,false,13,false,false
+175371,Capture Media,OutcomeMediaCLGL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:49:51 AM,false,14,false,false
+175372,Type of accommodation,AccommodationType,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:54:04 AM,false,1,false,true
+175373,Presenting complains at the time of hospitalization,HospitalizationComplains,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:55:10 AM,false,2,false,true
+175374,Any pre-existing Ailment?,PreExistingAilment,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:55:40 AM,false,3,false,false
+175375,Any Non- Disclosure,NonDisclosure,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:56:06 AM,false,4,false,false
+175376,Name of patient (as per Hospital records) is matching with patient  ID proof,IsPatientnameMatching,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:58:39 AM,false,1,false,false
+175377,Capture Media,NameOf PatientMatchingMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 7:59:56 AM,false,2,false,false
+175378,Age and Sex is matching with hospital/policy schedule,IsAgeAndGenderMatching,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:00:29 AM,false,3,false,false
+175379,Capture Media,AgeSexMatchingMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:01:03 AM,false,4,false,false
+175380,Address of member matching with hospital records/policy schedule,IsAddressMatching,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:01:32 AM,false,5,false,false
+175381,Capture Media,AddressOfMemberMatchingHospMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:02:07 AM,false,6,false,false
+175382,DOA and TOA is matching with hospital records,IsDOAAndTOAMatching,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:02:33 AM,false,7,false,false
+175383,Capture Media,DOATOAMatchingHospMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:03:06 AM,false,8,false,false
+175384,Type of accommodation is matching with Hospital records,IsAccommodationMaching,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:03:30 AM,false,9,false,false
+175385,Capture Media,TypeOfAccommodationMatchingwithHospMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:04:39 AM,false,10,false,false
+175386,Is there any past history of ailment?,IsAnyAilmentHistory,RadioGroup,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:05:01 AM,false,11,false,true
+175387,Capture Media,PastHistoryOfAilmentMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:05:58 AM,false,12,false,false
+175388,Detail of ailment/Disease with duration,AilmentDetail,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:07:23 AM,false,13,false,false
+175389,Similar episode in past,IsSimilarInPast,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:07:52 AM,false,14,false,false
+175390,Capture Media,SimilarEpisodeInPastCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:08:41 AM,false,15,false,false
+175391,Detail of Attendant was available during hospitalization,Attedant,Checkbox,true,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:10:12 AM,false,16,false,false
+175392,Capture media if any,DetailOfAttendantDuringhospMediaCLGL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:11:15 AM,false,17,false,false
+175393,Whether member is satisfied with our claim processing/TAT / Any area of improvement,MemberSatisfactionRemarks,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:11:59 AM,false,18,false,false
+175394,Is hospital is cooperating/ service satisfaction is there /Any area of Improvement,AreaOfImprovement,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:12:18 AM,false,19,false,false
+175395,Inpatient Verification Report,IsInpatientReportVer,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:25:35 AM,false,1,false,false
+175396,Capture media,InpatientVerificationReportMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:26:17 AM,false,2,false,false
+175397,ID Proof,IsIdPoofVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:27:01 AM,false,3,false,false
+175398,Capture Media,IDProofCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 8:27:33 AM,false,4,false,false
+175399,Copies of IPD records,IsCopyOfIPDRecords,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 9:12:27 AM,false,5,false,false
+175400,Capture Media,CopiesOfIPDRecordsMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 9:13:16 AM,false,6,false,false
+175401,Whether the hospital is registered or not,IsHospReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 9:13:44 AM,false,7,false,false
+175402,Capture Media,HospitalRegisteredMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 9:14:30 AM,false,8,false,false
+175403,MLC register check (For medico-legal cases),IsMLCReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 9:15:00 AM,false,9,false,false
+175404,Capture Media,MLCRegMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 9:16:18 AM,false,10,false,false
+175410,Copy of the MLC registration,IsCopyOfMLCReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 11:52:59 AM,false,11,false,false
+175411,Capture Media,CopyOfMLCRegMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 11:53:55 AM,false,12,false,false
+175412,Check Bills and Receipts,ISBillsAndReceiptsVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 11:54:16 AM,false,13,false,false
+175413,Capture Media,BillsAndReceiptsVerifiedMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 11:54:59 AM,false,14,false,false
+175414,Place of Lab (whether in vicinity of hospital or not?),IsLabInHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 11:55:26 AM,false,15,false,false
+175415,Capture Media,LabInHospMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 11:56:11 AM,false,16,false,false
+175416,Checking of Lab Register,IsLabReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 11:56:30 AM,false,17,false,false
+175417,Capture Media,LabRegMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 11:57:10 AM,false,18,false,false
+175418,Photocopy of Lab Register,IsPhotoAvailableForLab,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 11:57:35 AM,false,19,false,false
+175419,Capture Media,PhotoAvailableForLabMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 11:58:03 AM,false,20,false,false
+175420,Place of medicine's shop (whether in vicinity of hospital or not?),IsMedicineShopInHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 11:59:08 AM,false,21,false,false
+175421,Capture Media,MedicineShopInHospMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:00:24 PM,false,22,false,false
+175422,Checking of receipt book of medicines,IsReceiptMedicinebookVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:01:09 PM,false,23,false,false
+175423,Capture Media,ReceiptMedicinebookVerifiedMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:01:42 PM,false,24,false,false
+175424,Photocopy of Receipt (Final bill) Book,CopyOfReceiptAvailable,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:02:09 PM,false,25,false,false
+175425,Capture Media,CopyOfReceiptAvailableMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:02:40 PM,false,26,false,false
+175426,Check Tests done at Hospital,IsTestsAtHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:03:09 PM,false,27,false,false
+175427,Capture Media,IsTestsAtHospMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:03:47 PM,false,28,false,false
+175428,Check Tests done at Diagnostic Centre,IsTestsAtDiagnosticCentre,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:04:05 PM,false,29,false,false
+175429,Capture Media,IsTestsAtDiagnosticCentreMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:04:36 PM,false,30,false,false
+175430,Check Medicines dispensed from hospital,IsMedicineDispensedByHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:04:57 PM,false,31,false,false
+175431,Capture Media,IsMedicineDispensedByHospMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:06:24 PM,false,32,false,false
+175432,Check Medicines purchased from shop,IsMedicinePurchasedAtHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:06:44 PM,false,33,false,false
+175433,Capture Media,IsMedicinePurchasedAtHospMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:07:23 PM,false,34,false,false
+175434,Check Signature patient verified,IsPatientSigVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:07:51 PM,false,35,false,false
+175435,Capture Media,IsPatientSigVerifiedMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:08:26 PM,false,36,false,false
+175436,Copy of OT Register Taken (in case of surgery only),IsOTReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:08:45 PM,false,37,false,false
+175437,Capture Media,IsOTRegMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:09:29 PM,false,38,false,false
+175438,Hospital's lab register verified,IsHospLabReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:09:53 PM,false,39,false,false
+175439,Capture Media,IsHospLabRegMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:10:35 PM,false,40,false,false
+175440,Centre’s lab register verified,IsCentreLabReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:10:55 PM,false,41,false,false
+175441,Capture Media,IsCentreLabRegMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:11:27 PM,false,42,false,false
+175442,Copy of Bills at Hospital Verified,IsHospitalBillsVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:11:46 PM,false,43,false,false
+175443,Capture Media,IsHospitalBillsVerifiedMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:12:28 PM,false,44,false,false
+175445,Copy of Bills at Medicine shop verified? Close to Hospital,IsBillsAtMedShopVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:13:42 PM,false,46,false,false
+175446,Capture Media,IsBillsAtMedShopVerifiedCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:14:14 PM,false,47,false,false
+175447,Verification of treating doctor’s credentials,IsTreatingDocVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:14:51 PM,false,48,false,false
+175448,Capture Media,IsTreatingDocCreVerifiedMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:15:21 PM,false,49,false,false
+175449,Whether Signature Matching- Doctor claimant & Life insured,IsDocSigVerified,RadioGroup,true,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:15:49 PM,false,50,false,false
+175450,Capture Media,IsDocSigVerifiedMediaCLGL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:16:45 PM,false,51,false,false
+175451,Insured's Address Details,InsuredAddress,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:17:46 PM,false,52,false,false
+175452,Insured's Interview,,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:18:03 PM,false,53,false,false
+175453,Capture Media,InsuredInterviewCLGL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:19:06 PM,false,54,false,false
+175454,Photograph Copy of pan card and Voter ID of Claimant,PhotoOfClaimantCLGL,Media Control,false,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:21:17 PM,false,1,false,true
+175455,Copy of Diff pathological tests etc,CopyOfDiffPathlogicalTestsCLGL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:21:33 PM,false,2,false,true
+175456,Copy of indoor case papers investigation papers discharge summary,CopyOfIInvPapersCLGL,Media Control,false,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:22:11 PM,false,3,false,true
+175457,Investigator Findings/ Observation,InvestigatorFindingsCLGL,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:22:30 PM,false,4,false,false
+175458,Capture Media for Investigator Findings/ Observation,InvestigatorFindingsMediaCLGL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:22:52 PM,false,5,false,false
+175459,Date & Time of Visit,InvestigationDateTime,DatePicker,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:24:55 PM,false,1,false,false
+175461,Name of TPA,NameofTPA,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:31:48 PM,false,3,false,true
+175462,Name & Address of Hospital,ProviderAddress,TextArea,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:32:28 PM,false,4,false,true
+175463,Name of the Attending Doctor,TreatingDoctor,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:33:04 PM,false,5,false,true
+175464,Name & Address of Patient,InsuredAddress,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:33:27 PM,false,6,false,true
+175465,Age,Age,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:33:45 PM,false,7,false,true
+175466,Gender,Gender,Spinner,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:34:24 PM,false,8,false,true
+175467,Relation with Insured,Relationship,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:35:41 PM,false,9,false,true
+175468,SI,SumInsured,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:36:00 PM,false,10,false,true
+175469,Policy No,Policyno,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:36:17 PM,false,11,false,true
+175470,Claim ID,ClaimNo,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:36:35 PM,false,12,false,true
+175471,UHID,UHID,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:36:50 PM,false,13,false,true
+175472,First year Policy,IsFirstPolicyYear,Spinner,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:37:23 PM,false,14,false,true
+175473,Date of Admission,DOA,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:38:40 PM,false,15,false,true
+175474,Date of Discharge,DOD,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:38:58 PM,false,16,false,true
+175475,Nature of Ailment,Diagnosis,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:39:21 PM,false,17,false,true
+175476,Procedure Done,TreatmentType,Spinner,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:40:45 PM,false,18,false,true
+175477,Room Type & Room Rent,RoomTypeAndRent,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:41:07 PM,false,19,false,true
+175478,Type of investigation,InvestigatorType,Spinner,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:41:40 PM,false,20,false,true
+175479,Name of Investigation Agency,InvestigationAgency,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:41:59 PM,false,21,false,true
+175480,Name of Investigator,InvestigatorName,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:42:14 PM,false,22,false,true
+175481,Date of Case Assignment,DateOfAssignment,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:42:37 PM,false,23,false,true
+175482,Date of Report Submission,System Date Time,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:42:59 PM,false,24,false,true
+175483,Name of Patient,InvPatientName,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:47:16 PM,false,1,false,false
+175484,Occupation,OccupationId,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:47:39 PM,false,2,false,false
+175485,Mode of Transportation,ModeOfTrans,Spinner,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:48:29 PM,false,3,false,false
+175486,Pre –Hospitalization detail if any,PreHospDetail,TextArea,true,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:49:00 PM,false,4,false,false
+175487,Any Pre existing ailment,PreExistingAilment,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:49:29 PM,false,5,false,false
+175488,Any Non-disclosure,NonDisclosure,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:49:57 PM,false,6,false,false
+175489,Mode of payment (cash/credit one go/Multiple mode) matching with Hospital records,ModeOfPayment,RadioGroup,true,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:50:29 PM,false,7,false,false
+175490,Capture Media,ModeOfPaymentMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:51:05 PM,false,8,false,false
+175491,Detail of Attendant was available during hospitalization(Father/ Mother/ Sister/ Brother/ Son/ Daughter/ Relative),Attedant,TextArea,true,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:51:47 PM,false,9,false,false
+175492,Similar episode in past,IsSimilarInPast,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:52:14 PM,false,10,false,false
+175493,DOA and Time of Admission,DOAPV,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:54:00 PM,false,1,false,true
+175494,DOD and Time of Discharge,DODPV,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:54:50 PM,false,2,false,true
+175495,Type of accommodation,AccommodationType,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:55:54 PM,false,3,false,true
+175496,Mode of payment,ModeOfPayment,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:56:16 PM,false,4,false,true
+175497,All payment receipts are available for verification?,IsPaymentReceiptsAvailable,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:56:45 PM,false,5,false,false
+175498,Presenting complains at the time of hospitalization,HospitalizationComplains,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:57:26 PM,false,6,false,false
+175499,Treatment detail,TreatmentTypeHV,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:57:58 PM,false,7,false,true
+175500,Any pre-existing Ailment?,PreExistingAilment,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:58:31 PM,false,8,false,false
+175501,Any Non- Disclosure,NonDisclosure,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:59:08 PM,false,9,false,false
+175502,Is there any pre-post hospitalization records?,IsAnyPrePostRecords,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 12:59:34 PM,false,10,false,false
+175503,Is Medicine Stock register available for verification?,IsMedicineStockAvailable,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:00:14 PM,false,11,false,false
+175504,Lab register,IsLabReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:01:13 PM,false,12,false,false
+175505,Lab & Medicine Store Location(whether in-house or not),IsLabInHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:01:45 PM,false,13,false,false
+175506,No of beds in Hospital,NoOfBedsInHosp,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:02:09 PM,false,14,false,false
+175507,Whether hospital is Registered with Local Authority or not?,IsHospRegWithLocalAuth,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:02:35 PM,false,15,false,false
+175508,Are they aware about hospitalization?,IsNeighbourAware,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:03:58 PM,false,1,false,false
+175509,Is there any medical adverse findings before policy inception?,IsPolicyMedicalAdverse,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:04:23 PM,false,2,false,false
+175510,Inpatient Verification Report,IsInpatientReportVer,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:06:02 PM,false,1,false,false
+175511,Capture Media,IsInpatientReportVerMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:06:48 PM,false,2,false,false
+175512,ID Proof,IsIdPoofVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:08:03 PM,false,3,false,false
+175513,Capture Media,IsIdPoofVerifiedMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:08:51 PM,false,4,false,false
+175514,Copies of IPD records,IsCopyOfIPDRecords,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:38:14 PM,false,5,false,false
+175515,Capture Media,IsCopyOfIPDRecordsRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:39:29 PM,false,6,false,false
+175516,Whether the hospital is registered or not,IsHospReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:40:08 PM,false,7,false,false
+175517,Capture Media,IsHospRegRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:40:57 PM,false,8,false,false
+175518,MLC register check (For medico-legal cases),IsMLCReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:41:27 PM,false,9,false,false
+175519,Capture Media,IsMLCRegRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/14/2016 1:48:21 PM,false,10,false,false
+175520,Copy of the MLC registration,IsCopyOfMLCReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 4:56:22 AM,false,11,false,false
+175521,Capture Media,IsCopyOfMLCRegMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 4:57:14 AM,false,12,false,false
+175522,Check Bills and Receipts,ISBillsAndReceiptsVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 4:57:45 AM,false,13,false,false
+175523,Capture Media,ISBillsAndReceiptsVerifiedMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 4:58:28 AM,false,14,false,false
+175524,Place of Lab (whether in vicinity of hospital or not?),IsLabInHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 4:59:29 AM,false,15,false,false
+175525,Capture Media,IsLabInHospMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:00:14 AM,false,16,false,false
+175526,Checking of Lab Register,IsLabReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:00:39 AM,false,17,false,false
+175527,Capture Media,IsLabRegMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:01:28 AM,false,18,false,false
+175528,Photocopy of Lab Register,IsPhotoAvailableForLab,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:02:17 AM,false,19,false,false
+175529,Capture Media,IsPhotoAvailableForLabMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:02:53 AM,false,20,false,false
+175530,Place of medicine's shop (whether in vicinity of hospital or not?),IsMedicineShopInHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:03:23 AM,false,21,false,false
+175531,Capture Media,IsMedicineShopInHospMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:04:09 AM,false,22,false,false
+175532,Checking of receipt book of medicines,IsReceiptMedicinebookVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:04:40 AM,false,23,false,false
+175533,Capture Media,IsReceiptMedicinebookVerifiedMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:05:37 AM,false,24,false,false
+175534,Photocopy of Receipt (Final bill) Book,CopyOfReceiptAvailable,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:06:15 AM,false,25,false,false
+175535,Capture Media,CopyOfReceiptAvailableMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:07:11 AM,false,26,false,false
+175536,Check Tests done at Hospital,IsTestsAtHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:07:38 AM,false,27,false,false
+175537,Capture Media,IsTestsAtHospMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:08:20 AM,false,28,false,false
+175538,Check Tests done at Diagnostic Centre,IsTestsAtDiagnosticCentre,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:08:41 AM,false,29,false,false
+175539,Capture Media,IsTestsAtDiagnosticCentreMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:09:43 AM,false,30,false,false
+175540,Check Medicines dispensed from hospital,IsMedicineDispensedByHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:10:19 AM,false,31,false,false
+175541,Capture Media,IsMedicineDispensedByHospMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:11:14 AM,false,32,false,false
+175542,Check Medicines purchased from shop,IsMedicinePurchasedAtHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:11:38 AM,false,33,false,false
+175543,Capture Media,IsMedicinePurchasedAtHospMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:12:23 AM,false,34,false,false
+175544,Check Signature patient verified,IsPatientSigVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:12:47 AM,false,35,false,false
+175546,Capture Media,IsPatientSigVerifiedMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:15:04 AM,false,37,false,false
+175547,Copy of OT Register Taken (in case of surgery only),IsOTReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:15:26 AM,false,38,false,false
+175548,Capture Media,IsOTRegMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:19:40 AM,false,39,false,false
+175549,Hospital's lab register verified,IsHospLabReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:20:04 AM,false,40,false,false
+175550,Capture Media,IsHospLabRegMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:20:53 AM,false,41,false,false
+175551,Centre’s lab register verified,IsCentreLabReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:21:18 AM,false,42,false,false
+175552,Capture Media,IsCentreLabRegMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:21:56 AM,false,43,false,false
+175553,Copy of Bills at Hospital Verified,IsHospitalBillsVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:22:25 AM,false,44,false,false
+175554,Capture Media,IsHospitalBillsVerifiedMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:23:24 AM,false,45,false,false
+175555,Copy of Bills at Medicine shop verified? Close to Hospital,IsBillsAtMedShopVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:23:45 AM,false,46,false,false
+175556,Capture Media,IsBillsAtMedShopVerifiedMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:24:28 AM,false,47,false,false
+175557,Verification of treating doctor’s credentials,IsTreatingDocVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:24:51 AM,false,48,false,false
+175558,Capture Media,IsTreatingDocVerifiedMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:25:31 AM,false,49,false,false
+175559,Whether Signature Matching- Doctor claimant & Life insured,IsDocSigVerified,RadioGroup,true,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:25:56 AM,false,50,false,false
+175560,Capture Media,IsDocSigVerifiedMediaRLOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:26:40 AM,false,51,false,false
+175561,Insured's Address Details,InsuredAddress,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:27:04 AM,false,52,false,false
+175562,Insured's Interview,,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:27:43 AM,false,53,false,false
+175563,Capture Interview details,InsuredInterview,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:28:03 AM,false,54,false,false
+175564,Opinion,OpnionRLOL,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:28:20 AM,false,55,false,false
+175565,Capture Opinion Details,OpnionMediaRLOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:28:46 AM,false,56,false,false
+175566,Photograph Copy of pan card and Voter ID of Claimant,PhotoOfClaimantRLOL,Media Control,false,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:30:06 AM,false,1,false,true
+175568,Copy of Diff pathological tests etc,CopyOfDiffPathlogicalTestsRLOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:31:04 AM,false,3,false,true
+175569,Copy of indoor case papers investigation papers discharge summary,CopyOfIInvPapersRLOL,Media Control,false,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:31:23 AM,false,4,false,true
+175570,Investigator Findings/Observation,InvRemarks,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:31:39 AM,false,5,false,false
+175572,Date & Time of Visit,InvestigationDateTime,DatePicker,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:40:56 AM,false,2,false,false
+175574,Policy No,Policyno,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:41:56 AM,false,4,false,true
+175575,Policy Holder Name & Relation,PolicyHolderName,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:42:22 AM,false,5,false,true
+175577,Policy Type,PolicyType,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:43:19 AM,false,7,false,true
+175578,Name of Patient,PatientName,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:43:38 AM,false,8,false,true
+175579,Age,Age,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:43:58 AM,false,9,false,true
+175580,Claim ID,ClaimNo,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:44:17 AM,false,10,false,true
+175581,UHID,UHID,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:44:33 AM,false,11,false,true
+175582,Hospital Name,ProviderName,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:44:57 AM,false,12,false,true
+175583,Final Diagnosis,Diagnosis,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:45:12 AM,false,13,false,true
+175584,Claimed Amount,RequestedAmount,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:45:29 AM,false,14,false,true
+175585,Type of investigation,InvestigatorType,Spinner,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:45:55 AM,false,15,false,true
+175586,Name of Investigation Agency,InvestigationAgency,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:46:08 AM,false,16,false,true
+175587,Name of Investigator,InvestigatorName,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:46:24 AM,false,17,false,true
+175588,Date of Case Assignment,DateOfAssignment,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:46:43 AM,false,18,false,true
+175589,Date of Report Submission,DateOfReportSubmission,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:47:00 AM,false,19,false,true
+175590,Name of the Insured Patient,PatientName,Label,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:49:04 AM,false,1,false,false
+175591,As per Insurer,PatientNameAsPerInsurer,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:49:23 AM,false,2,false,true
+175593,As per hospital records,PatientNameAsPerHospRecords,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:50:09 AM,false,4,false,false
+175594,As per investigation,PatientNameAsPerInvestigation,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:50:28 AM,false,5,false,false
+175595,Verified or not,PatientNameAsPerVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 5:59:35 AM,false,6,false,false
+175596,Capture Details,PatientNameAsPerVerifiedMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 6:02:48 AM,false,7,false,false
+175597,Comments,NameComments,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 6:03:31 AM,false,8,false,false
+175598,Date of Birth/Age,,Label,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 6:03:49 AM,false,9,false,false
+175599,As per Insurer,DOBAsPerInsurer,DatePicker,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 6:04:35 AM,false,10,false,true
+175600,As per hospital records,DOBperHospRecords,DatePicker,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 6:04:55 AM,false,11,false,false
+175601,As per investigation,DOBAsPerInvestigation,DatePicker,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 6:05:28 AM,false,12,false,false
+175602,Verified or not,IsDOBVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 6:06:06 AM,false,13,false,false
+175603,Capture Verified Details,IsDOBVerifiedMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 6:06:54 AM,false,14,false,false
+175604,Comments,DOBComments,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 6:07:51 AM,false,15,false,false
+175605,Age Proof,,Label,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 6:08:34 AM,false,16,false,false
+175606,As per Insurer,AgeProofAsPerInsurer,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 6:09:21 AM,false,17,false,true
+175607,As per hospital records,AgeProofAsPerHospRecords,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 6:09:52 AM,false,18,false,false
+175608,As per investigation,AgeProofAsPerInvestigation,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 6:10:16 AM,false,19,false,false
+175609,Capture Details,AgeProofAsPerInvestigationMediaRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 7:52:54 AM,false,20,false,false
+175610,Verified or not,IsAgeProofVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 7:53:35 AM,false,21,false,false
+175611,Capture Media,IsAgeProofVerifiedMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 7:54:06 AM,false,22,false,false
+175612,Comments,AgeProofComments,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 7:54:49 AM,false,23,false,false
+175613,Occupation,,Label,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 7:55:06 AM,false,24,false,false
+175614,As per Insurer,OccupationAsPerInsurer,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 7:55:23 AM,false,25,false,true
+175615,As per hospital records,OccupationAsPerHospRecords,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 7:55:41 AM,false,26,false,false
+175617,Capture Media,OccupationAsPerHospRecordsMediaRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 7:57:32 AM,false,28,false,false
+175618,As per investigation,OccupationAsPerInvestigation,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 7:57:58 AM,false,29,false,false
+175619,Capture details,OccupationAsPerInvestigationMediaRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 7:58:25 AM,false,30,false,false
+175620,Verified or not,IsOccupationVerfied,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 7:58:48 AM,false,31,false,false
+175621,Capture Media,IsOccupationVerfiedMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 7:59:21 AM,false,32,false,false
+175622,Comments,OccupationComments,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:00:01 AM,false,33,false,false
+175623,DOA and Time of Admission,DOACD,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:00:39 AM,false,1,false,true
+175624,DOD and Time of Discharge,DODCD,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:00:58 AM,false,2,false,true
+175625,ICU Admission details,ICUDetail,TextArea,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:01:15 AM,false,3,false,true
+175627,Cashless/Non cashless,IsCashless,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:02:07 AM,false,5,false,true
+175628,Pre-Auth Details (Amt Authorized Estimate Medical history etc.),MedicalHistory,Media Control,false,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:02:47 AM,false,6,false,false
+175629,Diagnosis,DiagnosisCD,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:03:05 AM,false,7,false,true
+175630,Treatment,TreatmentTypeCD,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:03:19 AM,false,8,false,true
+175631,Hospital Name and Address,ProviderAddress,TextArea,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:03:38 AM,false,9,false,true
+175632,Registration and other details,RegistrationNo,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:04:22 AM,false,10,false,false
+175633,Onset of symptoms,OnsetOfSymptoms,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:05:16 AM,false,1,false,false
+175634,Capture Media,OnsetOfSymptomsRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:05:38 AM,false,2,false,false
+175635,1st consultation,FirstConsultation,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:06:08 AM,false,3,false,false
+175636,Capture Media,FirstConsultationRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:06:35 AM,false,4,false,false
+175637,Referral doctor details,TreatingDoctorWriteMode,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:06:57 AM,false,5,false,false
+175638,Capture Media,TreatingDoctorRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:07:31 AM,false,6,false,false
+175639,Initial treatment details,TreatmentDetails,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:07:51 AM,false,7,false,false
+175640,Capture Media,TreatmentDetailsRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:08:09 AM,false,8,false,false
+175641,Pre-Hospitalization investigation and Treatment details,PreHospDetail,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:08:29 AM,false,9,false,false
+175642,Capture Media,PreHospDetailRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:08:45 AM,false,10,false,false
+175645,Post-Hospitalization investigation  and treatment details,PostHospDetail,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:11:21 AM,false,13,false,false
+175646,Capture Media,PostHospDetailRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:11:41 AM,false,14,false,false
+175647,Investigations suggesting Diagnosis,InvsuggestingDiagnosis,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:12:10 AM,false,15,false,false
+175648,Capture Media,InvsuggestingDiagnosisRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:12:29 AM,false,16,false,false
+175649,Outcome,Outcome,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:12:58 AM,false,17,false,false
+175650,Capture Media,OutcomeMediaRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:13:16 AM,false,18,false,false
+175651,DOA and Time of Admission,DOA,DatePicker,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:14:38 AM,false,1,false,false
+175652,DOD and Time of Discharge,DOD,DatePicker,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:16:56 AM,false,2,false,false
+175653,Type of accommodation,AccommodationType,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:18:39 AM,false,3,false,false
+175654,Mode of payment(cash/credit card/in one go/multiple time In case of reimbursement),ModeOfPayment,RadioGroup,true,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:19:37 AM,false,4,false,false
+175655,All payment receipts are available for verification(In case of reimbursement),IsPaymentReceiptsAvailable,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:20:33 AM,false,5,false,false
+175656,Presenting complains at the time of hospitalization,HospitalizationComplains,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:20:58 AM,false,6,false,false
+175657,Capture Media,HospitalizationComplainsRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:21:16 AM,false,7,false,false
+175658,Treatment detail,TreatmentTypeHV,TextBox,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:22:07 AM,false,8,false,true
+175659,Any pre-existing Ailment?,PreExistingAilment,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:22:40 AM,false,9,false,false
+175660,Capture Media,PreExistingAilmentRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:22:58 AM,false,10,false,false
+175661,Any Non- Disclosure,NonDisclosure,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:23:24 AM,false,11,false,false
+175662,Capture Media,NonDisclosureRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 8:23:45 AM,false,12,false,false
+175663,Is Medicine Stock register available for verification?,IsMedicineStockAvailable,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:35:33 AM,false,13,false,false
+175664,Capture Media,IsMedicineStockAvailableMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:36:45 AM,false,14,false,false
+175665,Lab register,IsLabReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:37:14 AM,false,15,false,false
+175666,Captue Media,IsLabRegMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:38:07 AM,false,16,false,false
+175667,No of beds in Hospital,NoOfBedsInHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:38:51 AM,false,17,false,false
+175668,Capture Media,NoOfBedsInHospMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:39:38 AM,false,18,false,false
+175669,Whether hospital is Registered with Local Authority or not?,IsHospRegWithLocalAuth,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:40:30 AM,false,19,false,false
+175670,Capture Media,IsHospRegWithLocalAuthMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:41:53 AM,false,20,false,false
+175671,All Lab investigation as per Medical Advice,IsLabInvAsPerMedicalAdvice,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:42:53 AM,false,1,false,false
+175675,Capture Media,IsLabInvAsPerMedicalAdviceMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:47:21 AM,false,3,false,false
+175676,All lab records are available for verification,IsLabRecoredVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:47:52 AM,false,4,false,false
+175677,Capture Media,IsLabRecoredVerifiedMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:48:43 AM,false,5,false,false
+175678,Is there any irrelevant investigation,IsIrrelevantInv,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:49:30 AM,false,6,false,false
+175679,Capture Media,IsIrrelevantInvMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:50:34 AM,false,7,false,false
+175680,Name of patient (as per Hospital records) is matching with patient  ID proof,IsPatientnameMatching,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:51:43 AM,false,1,false,false
+175681,Capture Media,IsPatientnameMatchingMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:52:38 AM,false,2,false,false
+175682,Age and Sex is matching with hospital/policy schedule,IsAgeAndGenderMatching,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:53:16 AM,false,3,false,false
+175683,Capture Media,IsAgeAndGenderMatchingMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:53:55 AM,false,4,false,false
+175684,Address of member matching with hospital records/policy schedule,IsAddressMatching,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:54:23 AM,false,5,false,false
+175685,Capture Media,IsAddressMatchingMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:55:00 AM,false,6,false,false
+175686,DOA and TOA is matching with hospital records,IsDOAAndTOAMatching,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:55:23 AM,false,7,false,false
+175687,Capture Media,IsDOAAndTOAMatchingMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:56:21 AM,false,8,false,false
+175688,DOD and TOD is matching with hospital records,IsDODAndTOAMatching,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:57:03 AM,false,9,false,false
+175689,Capture Media,IsDODAndTOAMatchingMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:57:54 AM,false,10,false,false
+175690,Type of accommodation is matching with Hospital records,IsAccommodationMaching,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:58:25 AM,false,11,false,false
+175691,Capture Media,IsAccommodationMachingMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:59:08 AM,false,12,false,false
+175692,Duration of Ailment,DurationOfAilment,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 9:59:37 AM,false,13,false,false
+175693,Is there any past history of ailment?,IsAnyAilmentHistory,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:00:37 AM,false,14,false,false
+175694,Detail of ailment/Disease with duration,AilmentDetail,TextArea,true, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:07:13 AM,false,15,false,false
+175695,Capture the Details,IsSimilarInPast,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:07:53 AM,false,16,false,false
+175696,Similar episode in past,Attedant,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:08:19 AM,false,17,false,false
+175697,Capture Media,AttedantRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:08:52 AM,false,18,false,false
+175698,Detail of Attendant was available during hospitalization?,IsNeighbourAware,Checkbox,true,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:10:52 AM,false,19,false,false
+175699,Are they aware about hospitalization?,,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:12:51 AM,false,1,false,false
+175700,Is there any medical adverse findings before policy inception?,IsPolicyMedicalAdverse,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:13:15 AM,false,2,false,false
+175701,Inpatient Verification Report,IsInpatientReportVer,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:15:01 AM,false,1,false,false
+175702,Capture Media,IsInpatientReportVerMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:16:33 AM,false,2,false,false
+175703,ID Proof,IsIdPoofVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:17:04 AM,false,3,false,false
+175704,Capture Media,IsIdPoofVerifiedMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:17:59 AM,false,4,false,false
+175705,Copies of IPD records,IsCopyOfIPDRecords,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:20:20 AM,false,5,false,false
+175706,Capture Media,IsCopyOfIPDRecordsRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:22:36 AM,false,6,false,false
+175707,Whether the hospital is registered or not,IsHospReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:23:06 AM,false,7,false,false
+175708,Capture Media,IsHospRegRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:24:03 AM,false,8,false,false
+175709,MLC register check (For medico-legal cases),IsMLCReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:24:31 AM,false,9,false,false
+175710,Capture Media,IsMLCRegRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:25:27 AM,false,10,false,false
+175711,Copy of the MLC registration,IsCopyOfMLCReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:25:53 AM,false,11,false,false
+175712,Capture Media,IsCopyOfMLCRegMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:26:43 AM,false,12,false,false
+175713,Check Bills and Receipts,ISBillsAndReceiptsVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:27:33 AM,false,13,false,false
+175714,Capture Media,ISBillsAndReceiptsVerifiedMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:28:08 AM,false,14,false,false
+175715,Place of Lab (whether in vicinity of hospital or not?),IsLabInHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:28:32 AM,false,15,false,false
+175716,Capture Media,IsLabInHospMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:29:10 AM,false,16,false,false
+175717,Checking of Lab Register,IsLabReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:29:37 AM,false,17,false,false
+175718,Capture Media,CheckLabRegMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:30:26 AM,false,18,false,false
+175719,Photocopy of Lab Register,IsPhotoAvailableForLab,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:30:45 AM,false,19,false,false
+175720,Capture Media,IsPhotoAvailableForLabMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:32:51 AM,false,20,false,false
+175721,Place of medicine's shop (whether in vicinity of hospital or not?),IsMedicineShopInHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:33:15 AM,false,21,false,false
+175722,Capture Media,IsMedicineShopInHospMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:34:06 AM,false,22,false,false
+175723,Checking of receipt book of medicines,IsReceiptMedicinebookVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:34:32 AM,false,23,false,false
+175724,Capture Media,IsReceiptMedicinebookVerifiedMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:35:27 AM,false,24,false,false
+175725,Photocopy of Receipt (Final bill) Book,CopyOfReceiptAvailable,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:37:18 AM,false,25,false,false
+175726,Capture Media,CopyOfReceiptAvailableMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:40:15 AM,false,26,false,false
+175727,Check Tests done at Hospital,IsTestsAtHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:40:41 AM,false,27,false,false
+175728,Capture Media,IsTestsAtHospMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:41:19 AM,false,28,false,false
+175730,Check Tests done at Diagnostic Centre,IsTestsAtDiagnosticCentre,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:42:24 AM,false,30,false,false
+175731,Capture Media,IsTestsAtDiagnosticCentreMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:43:32 AM,false,31,false,false
+175732,Check Medicines dispensed from hospital,IsMedicineDispensedByHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:44:26 AM,false,32,false,false
+175733,Capture Media,IsMedicineDispensedByHospMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:45:51 AM,false,33,false,false
+175734,Check Medicines purchased from shop,IsMedicinePurchasedAtHosp,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:46:31 AM,false,34,false,false
+175735,Capture Media,IsMedicinePurchasedAtHospMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:47:09 AM,false,35,false,false
+175736,Check Signature patient verified,IsPatientSigVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:47:37 AM,false,36,false,false
+175737,Capture Media,IsPatientSigVerifiedMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:48:16 AM,false,37,false,false
+175739,Copy of OT Register Taken (in case of surgery only),IsOTReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:49:22 AM,false,39,false,false
+175740,Capture Media,IsOTRegMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:50:17 AM,false,40,false,false
+175741,Hospital's lab register verified,IsHospLabReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:50:47 AM,false,41,false,false
+175742,Capture Media,IsHospLabRegMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:51:48 AM,false,42,false,false
+175743,Centre’s lab register verified,IsCentreLabReg,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:52:12 AM,false,43,false,false
+175744,Capture Media,IsCentreLabRegMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:52:47 AM,false,44,false,false
+175745,Copy of Bills at Hospital Verified,IsCopyOfIPDRecords,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:53:36 AM,false,45,false,false
+175746,Capture Media,IsCopyOfMLCRegMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:54:57 AM,false,46,false,false
+175747,Copy of Bills at Medicine shop verified? Close to Hospital,IsHospitalBillsVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:56:14 AM,false,47,false,false
+175748,Capture Media,IsHospitalBillsVerifiedMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 10:59:23 AM,false,48,false,false
+175749,Verification of treating doctor’s credentials,IsTreatingDocVerified,RadioGroup,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:00:19 AM,false,49,false,false
+175750,Capture Media,IsTreatingDocVerifiedMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:01:58 AM,false,50,false,false
+175751,Whether Signature Matching- Doctor claimant & Life insured,IsDocSigVerified,RadioGroup,true,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:02:37 AM,false,51,false,false
+175752,Capture Media,IsDocSigVerifiedMediaRGOL,Media Control,false, ,true,40219, ,true,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:04:01 AM,false,52,false,false
+175753,Insured's Address Details,InsuredAddress,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:04:29 AM,false,53,false,false
+175754,Insured's Interview,InsuredInterview,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:05:30 AM,false,54,false,false
+175755,Capture Interview details,InsuredInterview,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:05:30 AM,false,55,false,false
+175756,Opinion,OpnionRGOL,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:08:13 AM,false,56,false,false
+175757,Photograph Copy of pan card and Voter ID of Claimant,PhotoOfClaimantRGOL,Media Control,false,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:09:24 AM,false,1,false,true
+175758,Copy of Diff pathological tests etc,CopyOfDiffPathlogicalTestsRGOL,Media Control,false, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:09:59 AM,false,2,false,true
+175759,Copy of indoor case papers investigation papers discharge summary,CopyOfIInvPapersRGOL,Media Control,false,,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:10:32 AM,false,3,false,true
+175760,Investigator Findings/Observation,InvRemarks,TextArea,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:10:59 AM,false,4,false,false
+175761,Name of Patient,,TextBox,true, ,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/15/2016 11:10:59 AM,false,4,false,false
+175762,Claim ID,ClaimNoHeader,Name,true,Please enter the UHID,true,40219, ,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:52:43 AM,true,10,true,false
+175763,Reason for Hospitalization,Reason for Hospitalization,TextBox,true,Please enter the Reason for Hospitalization,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:52:43 AM,false,1,false,false
+175764,Relevance of Treatment,Relevance of Treatment,TextBox,true,Please enter the Relevance of Treatment,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:52:43 AM,false,2,false,false
+175765,Symptoms Investigator find in the case paper,Symptoms Investigator find in the case paper,TextBox,true,Please enter the Symptoms Investigator find in the case paper,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:52:43 AM,false,3,false,false
+175766,What symptoms was the patient exhibiting when he/she visited the hospital,What symptoms was the patient exhibiting when he/she visited the hospital,TextBox,true,Please enter the What symptoms was the patient exhibiting when he/she visited the hospital,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:52:43 AM,false,4,false,false
+175767,What diagnostic tests(if any) were performed on the patient,What diagnostic tests(if any) were performed on the patient,TextBox,true,Please enter the What diagnostic tests(if any) were performed on the patient,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:52:43 AM,false,5,false,false
+175768,Mention the Impression of Diagnostic Test and attach the documents,Mention the Impression of Diagnostic Test and attach the documents,TextBox,true,Please enter the Mention the Impression of Diagnostic Test and attach the documents,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:52:43 AM,false,6,false,false
+175769,Investigator Opinion,Investigator Opinion,RadioGroup,true,Please select the Investigator Opinion ,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:52:43 AM,false,7,false,false
+175770,Investigation Findings/Remark,Investigation Findings/Remark,TextBox,true,Please enter Investigation Findings/Remark,true,40219,,false,false,false,803c8132-29b7-4dce-8df1-3ca090fdf49f,11/11/2016 10:52:43 AM,false,8,false,false

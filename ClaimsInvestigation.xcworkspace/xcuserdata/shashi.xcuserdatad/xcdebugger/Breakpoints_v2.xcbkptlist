@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5F66D72A-8703-4237-985D-79F2A13D28F2"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DC1935CC-FAEB-4F3F-A84E-EFBE5A25BEC0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation Logic/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "833"
+            endingLineNumber = "833"
+            landmarkName = "pullToRefresh(sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5471061-8EE4-4325-8B6B-EC8C2B01AFDB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation Logic/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1197"
+            endingLineNumber = "1197"
+            landmarkName = "getAssignedCaseDetails(caseIDArray:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B5471061-8EE4-4325-8B6B-EC8C2B01AFDB - 6508ce40ce402f1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClaimsInvestigation_Dev.HomeViewController.getAssignedCaseDetails(caseIDArray: Swift.Array&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "ClaimsInvestigation Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shashi/Documents/HITPINV/IOS_HITPA_Investigator/HITPAClaims/ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation%20Logic/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1197"
+                  endingLineNumber = "1197"
+                  offsetFromSymbolStart = "1771">
+               </Location>
+               <Location
+                  uuid = "B5471061-8EE4-4325-8B6B-EC8C2B01AFDB - f364ec51b262f8e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ClaimsInvestigation_Dev.HomeViewController.getAssignedCaseDetails(caseIDArray: Swift.Array&lt;Swift.String&gt;) -&gt; ()"
+                  moduleName = "ClaimsInvestigation Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shashi/Documents/HITPINV/IOS_HITPA_Investigator/HITPAClaims/ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation%20Logic/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1199"
+                  endingLineNumber = "1199"
+                  offsetFromSymbolStart = "249">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AFF451EE-98F4-4B7E-A763-85FA6C6568D7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation Logic/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1190"
+            endingLineNumber = "1190"
+            landmarkName = "getAssignedCaseDetails(caseIDArray:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD2C827C-718A-4D23-AF2F-813C9B7E5122"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation Logic/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1342"
+            endingLineNumber = "1342"
+            landmarkName = "checkForAppUpdate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CD2C827C-718A-4D23-AF2F-813C9B7E5122 - 60fa9558443263d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClaimsInvestigation_Dev.HomeViewController.checkForAppUpdate() -&gt; ()"
+                  moduleName = "ClaimsInvestigation Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shashi/Documents/HITPINV/IOS_HITPA_Investigator/HITPAClaims/ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation%20Logic/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1342"
+                  endingLineNumber = "1342"
+                  offsetFromSymbolStart = "1480">
+               </Location>
+               <Location
+                  uuid = "CD2C827C-718A-4D23-AF2F-813C9B7E5122 - f9d94cec1f5fc171"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ClaimsInvestigation_Dev.HomeViewController.checkForAppUpdate() -&gt; ()"
+                  moduleName = "ClaimsInvestigation Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shashi/Documents/HITPINV/IOS_HITPA_Investigator/HITPAClaims/ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation%20Logic/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1344"
+                  endingLineNumber = "1344"
+                  offsetFromSymbolStart = "249">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC3066E1-B712-4AEE-86B3-59662494D8EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation Logic/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "292"
+            endingLineNumber = "292"
+            landmarkName = "btnDeclineUploadTapped(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EC3066E1-B712-4AEE-86B3-59662494D8EB - 59a94ecaf73a9699"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClaimsInvestigation_Dev.HomeViewController.btnDeclineUploadTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "ClaimsInvestigation Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shashi/Documents/HITPINV/IOS_HITPA_Investigator/HITPAClaims/ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation%20Logic/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "292"
+                  endingLineNumber = "292"
+                  offsetFromSymbolStart = "6694">
+               </Location>
+               <Location
+                  uuid = "EC3066E1-B712-4AEE-86B3-59662494D8EB - cfa57f6f1c30b203"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ClaimsInvestigation_Dev.HomeViewController.btnDeclineUploadTapped(__C.UIButton) -&gt; ()"
+                  moduleName = "ClaimsInvestigation Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shashi/Documents/HITPINV/IOS_HITPA_Investigator/HITPAClaims/ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation%20Logic/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "293"
+                  endingLineNumber = "293"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "26855DE2-1B31-4597-8D59-C619EC9D6FE6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation Logic/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "753"
+            endingLineNumber = "753"
+            landmarkName = "rejectCase(caseID:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "26855DE2-1B31-4597-8D59-C619EC9D6FE6 - ed64000dcba1dfa7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClaimsInvestigation_Dev.HomeViewController.rejectCase(caseID: Swift.Int64) -&gt; ()"
+                  moduleName = "ClaimsInvestigation Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shashi/Documents/HITPINV/IOS_HITPA_Investigator/HITPAClaims/ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation%20Logic/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "753"
+                  endingLineNumber = "753"
+                  offsetFromSymbolStart = "1838">
+               </Location>
+               <Location
+                  uuid = "26855DE2-1B31-4597-8D59-C619EC9D6FE6 - d33dc5c71edca867"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ClaimsInvestigation_Dev.HomeViewController.rejectCase(caseID: Swift.Int64) -&gt; ()"
+                  moduleName = "ClaimsInvestigation Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shashi/Documents/HITPINV/IOS_HITPA_Investigator/HITPAClaims/ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation%20Logic/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "755"
+                  endingLineNumber = "755"
+                  offsetFromSymbolStart = "277">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58B4C4A7-A994-4717-BF5A-E5FC66CA8BBE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation Logic/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "840"
+            endingLineNumber = "840"
+            landmarkName = "pullToRefresh(sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "58B4C4A7-A994-4717-BF5A-E5FC66CA8BBE - 3caa3e5b27effac7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClaimsInvestigation_Dev.HomeViewController.pullToRefresh(sender: Swift.AnyObject) -&gt; ()"
+                  moduleName = "ClaimsInvestigation Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shashi/Documents/HITPINV/IOS_HITPA_Investigator/HITPAClaims/ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation%20Logic/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "840"
+                  endingLineNumber = "840"
+                  offsetFromSymbolStart = "2078">
+               </Location>
+               <Location
+                  uuid = "58B4C4A7-A994-4717-BF5A-E5FC66CA8BBE - f4805f7f0460f6f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ClaimsInvestigation_Dev.HomeViewController.pullToRefresh(sender: Swift.AnyObject) -&gt; ()"
+                  moduleName = "ClaimsInvestigation Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shashi/Documents/HITPINV/IOS_HITPA_Investigator/HITPAClaims/ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation%20Logic/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "842"
+                  endingLineNumber = "842"
+                  offsetFromSymbolStart = "307">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "921A8005-C4C5-408A-AA5C-45747A1079D0"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation Logic/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1070"
+            endingLineNumber = "1070"
+            landmarkName = "getAssignedCases()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "921A8005-C4C5-408A-AA5C-45747A1079D0 - e0f93925f8d81a66"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ClaimsInvestigation_Dev.HomeViewController.getAssignedCases() -&gt; ()"
+                  moduleName = "ClaimsInvestigation Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shashi/Documents/HITPINV/IOS_HITPA_Investigator/HITPAClaims/ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation%20Logic/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1070"
+                  endingLineNumber = "1070"
+                  offsetFromSymbolStart = "5903">
+               </Location>
+               <Location
+                  uuid = "921A8005-C4C5-408A-AA5C-45747A1079D0 - 4fe6eafcc9f26c95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #4 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in ClaimsInvestigation_Dev.HomeViewController.getAssignedCases() -&gt; ()"
+                  moduleName = "ClaimsInvestigation Dev"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Shashi/Documents/HITPINV/IOS_HITPA_Investigator/HITPAClaims/ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation%20Logic/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1001"
+                  endingLineNumber = "1001"
+                  offsetFromSymbolStart = "271">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1DD08913-4873-4E20-9FAD-90FFB6046276"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClaimsInvestigation/ClaimsInvestigation/App/Presentation/Presentation Logic/HomeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1072"
+            endingLineNumber = "1072"
+            landmarkName = "getAssignedCases()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0930D46A-7FC3-425C-8E30-777DFF2E07B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClaimsInvestigation/ClaimsInvestigation/App/Common/Communication/HITPAAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E13E7E34-AF4D-4919-8142-8757A8E8C654"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClaimsInvestigation/ClaimsInvestigation/App/Common/Communication/HITPAAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EF148DEE-E1D4-4322-8365-D3F9AB0806CB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClaimsInvestigation/ClaimsInvestigation/App/Common/Communication/HITPAAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
